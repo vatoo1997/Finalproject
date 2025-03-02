@@ -2770,9 +2770,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user1201\\Desktop\\FinalProject\\Service\\Service.csproj",
+      "projectUniqueName": "C:\\Users\\user1201\\Desktop\\Finalproject\\Service\\Service.csproj",
       "projectName": "Service",
-      "projectPath": "C:\\Users\\user1201\\Desktop\\FinalProject\\Service\\Service.csproj",
+      "projectPath": "C:\\Users\\user1201\\Desktop\\Finalproject\\Service\\Service.csproj",
       "packagesPath": "C:\\Users\\user1201\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\user1201\\Desktop\\FinalProject\\Service\\obj\\",
       "projectStyle": "PackageReference",
@@ -2795,8 +2795,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\user1201\\Desktop\\FinalProject\\Model\\Model.csproj": {
-              "projectPath": "C:\\Users\\user1201\\Desktop\\FinalProject\\Model\\Model.csproj"
+            "C:\\Users\\user1201\\Desktop\\Finalproject\\Model\\Model.csproj": {
+              "projectPath": "C:\\Users\\user1201\\Desktop\\Finalproject\\Model\\Model.csproj"
             }
           }
         }
@@ -2832,7 +2832,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
