@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\user1201\\Desktop\\FinalProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6FFC4DF4-840D-44E1-AD9B-78713B399612}|View\\View.csproj|c:\\users\\user1201\\desktop\\finalproject\\view\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6FFC4DF4-840D-44E1-AD9B-78713B399612}|View\\View.csproj|solutionrelative:view\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FFC4DF4-840D-44E1-AD9B-78713B399612}|View\\View.csproj|c:\\users\\user1201\\desktop\\finalproject\\view\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6FFC4DF4-840D-44E1-AD9B-78713B399612}|View\\View.csproj|solutionrelative:view\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FFC4DF4-840D-44E1-AD9B-78713B399612}|View\\View.csproj|c:\\users\\user1201\\desktop\\finalproject\\view\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FFC4DF4-840D-44E1-AD9B-78713B399612}|View\\View.csproj|solutionrelative:view\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FFC4DF4-840D-44E1-AD9B-78713B399612}|View\\View.csproj|c:\\users\\user1201\\desktop\\finalproject\\view\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FFC4DF4-840D-44E1-AD9B-78713B399612}|View\\View.csproj|solutionrelative:view\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6FFC4DF4-840D-44E1-AD9B-78713B399612}|View\\View.csproj|c:\\users\\user1201\\desktop\\finalproject\\view\\productview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6FFC4DF4-840D-44E1-AD9B-78713B399612}|View\\View.csproj|solutionrelative:view\\productview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,52 +34,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\user1201\\Desktop\\FinalProject\\View\\Form1.cs",
-              "RelativeDocumentMoniker": "View\\Form1.cs",
-              "ToolTip": "C:\\Users\\user1201\\Desktop\\FinalProject\\View\\Form1.cs",
-              "RelativeToolTip": "View\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T10:03:55.927Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form2.cs",
-              "DocumentMoniker": "C:\\Users\\user1201\\Desktop\\FinalProject\\View\\Form2.cs",
-              "RelativeDocumentMoniker": "View\\Form2.cs",
-              "ToolTip": "C:\\Users\\user1201\\Desktop\\FinalProject\\View\\Form2.cs",
-              "RelativeToolTip": "View\\Form2.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAmwBcAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T10:03:40.097Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form2.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\user1201\\Desktop\\FinalProject\\View\\Form2.cs",
-              "RelativeDocumentMoniker": "View\\Form2.cs",
-              "ToolTip": "C:\\Users\\user1201\\Desktop\\FinalProject\\View\\Form2.cs [Design]",
-              "RelativeToolTip": "View\\Form2.cs [Design]",
+              "Title": "ProductView.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\user1201\\Desktop\\FinalProject\\View\\ProductView.cs",
+              "RelativeDocumentMoniker": "View\\ProductView.cs",
+              "ToolTip": "C:\\Users\\user1201\\Desktop\\FinalProject\\View\\ProductView.cs [Design]",
+              "RelativeToolTip": "View\\ProductView.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T08:01:20.274Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\user1201\\Desktop\\FinalProject\\View\\Form1.cs",
-              "RelativeDocumentMoniker": "View\\Form1.cs",
-              "ToolTip": "C:\\Users\\user1201\\Desktop\\FinalProject\\View\\Form1.cs [Design]",
-              "RelativeToolTip": "View\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T10:39:02.42Z",
+              "WhenOpened": "2025-03-03T05:55:13.262Z",
               "EditorCaption": " [Design]"
             }
           ]

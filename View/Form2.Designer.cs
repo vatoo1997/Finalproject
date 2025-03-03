@@ -28,29 +28,28 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
+            btnAdd = new Button();
             button2 = new Button();
             button3 = new Button();
             button4 = new Button();
             button5 = new Button();
             label1 = new Label();
-            textBox1 = new TextBox();
+            txtFirstName = new TextBox();
             dataGridView1 = new DataGridView();
-            Column1 = new DataGridViewTextBoxColumn();
-            Column2 = new DataGridViewTextBoxColumn();
-            Column3 = new DataGridViewTextBoxColumn();
+            listBox1 = new ListBox();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
-            // button1
+            // btnAdd
             // 
-            button1.BackColor = Color.FromArgb(128, 255, 128);
-            button1.Location = new Point(663, 68);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 36);
-            button1.TabIndex = 0;
-            button1.Text = "Add";
-            button1.UseVisualStyleBackColor = false;
+            btnAdd.BackColor = Color.FromArgb(128, 255, 128);
+            btnAdd.Location = new Point(663, 68);
+            btnAdd.Name = "btnAdd";
+            btnAdd.Size = new Size(75, 36);
+            btnAdd.TabIndex = 0;
+            btnAdd.Text = "Add";
+            btnAdd.UseVisualStyleBackColor = false;
+            btnAdd.Click += btnAdd_Click;
             // 
             // button2
             // 
@@ -102,53 +101,48 @@
             label1.TabIndex = 5;
             label1.Text = "label1";
             // 
-            // textBox1
+            // txtFirstName
             // 
-            textBox1.Location = new Point(111, 68);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(418, 23);
-            textBox1.TabIndex = 6;
+            txtFirstName.Location = new Point(111, 68);
+            txtFirstName.Name = "txtFirstName";
+            txtFirstName.Size = new Size(418, 23);
+            txtFirstName.TabIndex = 6;
+            txtFirstName.TextChanged += textBox1_TextChanged;
             // 
             // dataGridView1
             // 
             dataGridView1.BackgroundColor = Color.FromArgb(192, 255, 192);
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3 });
-            dataGridView1.Location = new Point(111, 121);
+            dataGridView1.Location = new Point(111, 134);
             dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(418, 255);
+            dataGridView1.Size = new Size(418, 150);
             dataGridView1.TabIndex = 7;
             // 
-            // Column1
+            // listBox1
             // 
-            Column1.HeaderText = "Column1";
-            Column1.Name = "Column1";
-            // 
-            // Column2
-            // 
-            Column2.HeaderText = "Column2";
-            Column2.Name = "Column2";
-            // 
-            // Column3
-            // 
-            Column3.HeaderText = "Column3";
-            Column3.Name = "Column3";
+            listBox1.FormattingEnabled = true;
+            listBox1.Location = new Point(111, 304);
+            listBox1.Name = "listBox1";
+            listBox1.Size = new Size(120, 94);
+            listBox1.TabIndex = 8;
             // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(listBox1);
             Controls.Add(dataGridView1);
-            Controls.Add(textBox1);
+            Controls.Add(txtFirstName);
             Controls.Add(label1);
             Controls.Add(button5);
             Controls.Add(button4);
             Controls.Add(button3);
             Controls.Add(button2);
-            Controls.Add(button1);
+            Controls.Add(btnAdd);
             Name = "Form2";
             Text = "Form2";
+            Load += Form2_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -156,16 +150,14 @@
 
         #endregion
 
-        private Button button1;
+        private Button btnAdd;
         private Button button2;
         private Button button3;
         private Button button4;
         private Button button5;
         private Label label1;
-        private TextBox textBox1;
+        private TextBox txtFirstName;
         private DataGridView dataGridView1;
-        private DataGridViewTextBoxColumn Column1;
-        private DataGridViewTextBoxColumn Column2;
-        private DataGridViewTextBoxColumn Column3;
+        private ListBox listBox1;
     }
 }

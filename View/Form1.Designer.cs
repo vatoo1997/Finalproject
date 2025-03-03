@@ -41,11 +41,12 @@
             // button1
             // 
             button1.BackColor = Color.White;
+            button1.Font = new Font("Segoe UI", 15F);
             button1.Location = new Point(48, 198);
             button1.Name = "button1";
             button1.Size = new Size(196, 80);
             button1.TabIndex = 0;
-            button1.Text = "button1";
+            button1.Text = "Person";
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
@@ -56,7 +57,7 @@
             groupBox1.Controls.Add(pictureBox1);
             groupBox1.Controls.Add(button2);
             groupBox1.Controls.Add(button1);
-            groupBox1.Location = new Point(303, 81);
+            groupBox1.Location = new Point(351, 90);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(291, 312);
             groupBox1.TabIndex = 2;
@@ -78,20 +79,21 @@
             pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
             pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox1.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox1.Location = new Point(120, 36);
+            pictureBox1.Location = new Point(122, 36);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(47, 40);
+            pictureBox1.Size = new Size(44, 40);
             pictureBox1.TabIndex = 2;
             pictureBox1.TabStop = false;
             // 
             // button2
             // 
             button2.BackColor = Color.White;
+            button2.Font = new Font("Segoe UI", 15F);
             button2.Location = new Point(48, 112);
             button2.Name = "button2";
             button2.Size = new Size(196, 80);
             button2.TabIndex = 1;
-            button2.Text = "button2";
+            button2.Text = "Product";
             button2.UseVisualStyleBackColor = false;
             // 
             // Form1
@@ -100,7 +102,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(899, 529);
+            ClientSize = new Size(991, 541);
             Controls.Add(groupBox1);
             Name = "Form1";
             Text = "Form1";

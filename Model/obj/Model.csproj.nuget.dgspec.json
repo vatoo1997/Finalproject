@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user1201\\Desktop\\Finalproject\\Model\\Model.csproj": {}
+    "C:\\Users\\user1201\\Desktop\\FinalProject\\Model\\Model.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user1201\\Desktop\\Finalproject\\Model\\Model.csproj": {
+    "C:\\Users\\user1201\\Desktop\\FinalProject\\Model\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user1201\\Desktop\\Finalproject\\Model\\Model.csproj",
+        "projectUniqueName": "C:\\Users\\user1201\\Desktop\\FinalProject\\Model\\Model.csproj",
         "projectName": "Model",
-        "projectPath": "C:\\Users\\user1201\\Desktop\\Finalproject\\Model\\Model.csproj",
+        "projectPath": "C:\\Users\\user1201\\Desktop\\FinalProject\\Model\\Model.csproj",
         "packagesPath": "C:\\Users\\user1201\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\user1201\\Desktop\\FinalProject\\Model\\obj\\",
         "projectStyle": "PackageReference",

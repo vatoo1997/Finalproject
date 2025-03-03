@@ -4754,11 +4754,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user1201\\Desktop\\Finalproject\\View\\View.csproj",
+      "projectUniqueName": "C:\\Users\\user1201\\Desktop\\FinalProject\\View\\View.csproj",
       "projectName": "View",
-      "projectPath": "C:\\Users\\user1201\\Desktop\\Finalproject\\View\\View.csproj",
+      "projectPath": "C:\\Users\\user1201\\Desktop\\FinalProject\\View\\View.csproj",
       "packagesPath": "C:\\Users\\user1201\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user1201\\Desktop\\FinalProject\\View\\obj\\",
+      "outputPath": "C:\\Users\\user1201\\Desktop\\Finalproject\\View\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4779,8 +4779,8 @@
         "net9.0-windows7.0": {
           "targetAlias": "net9.0-windows",
           "projectReferences": {
-            "C:\\Users\\user1201\\Desktop\\Finalproject\\Service\\Service.csproj": {
-              "projectPath": "C:\\Users\\user1201\\Desktop\\Finalproject\\Service\\Service.csproj"
+            "C:\\Users\\user1201\\Desktop\\FinalProject\\Service\\Service.csproj": {
+              "projectPath": "C:\\Users\\user1201\\Desktop\\FinalProject\\Service\\Service.csproj"
             }
           }
         }
